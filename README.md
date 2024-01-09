@@ -4,7 +4,7 @@ live @ [peoples-park.vercel.app](https://peoples-park.vercel.app/)
 
 ---
 
-# How to help / Things that can be easily changed
+# How to help / more info
 
 hit me up with any suggestions
 
