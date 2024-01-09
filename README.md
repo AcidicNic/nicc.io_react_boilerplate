@@ -10,6 +10,8 @@ hit me up with any suggestions
 
 don't worry about if it's something that sounds like it'd be hard to add, just let me know if you have ideas
 
+can be one of the following things or something else
+
 ## Layout
 
 ik it's kinda basic looking rn. if you have ideas about the layout, a sketch/photo or link to a reference would be helpful to understand the vision
