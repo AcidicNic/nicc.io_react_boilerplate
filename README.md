@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# People's Park Info Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live @ [peoples-park.vercel.app](https://peoples-park.vercel.app/)
 
-## Available Scripts
+## Making suggestions / Things that can be easily changed
 
-In the project directory, you can run:
+hit me up with any suggestions
 
-### `npm start`
+don't worry about if it's something that sounds like it'd be hard to add, just let me know if you have ideas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+can be one of the following things or something else
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Layout
 
-### `npm test`
+ik it's kinda basic looking rn. if you have ideas about the layout, a sketch/photo or link to a reference would be helpful to understand the vision
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Text / Images
 
-### `npm run build`
+any text and images can be easily swapped out/added
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Colors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### what's a theme?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project uses DaisyUI, which comes with a variety of theme presets. A theme is a set of colors that are automatically applied to all of the content on the website
 
-### `npm run eject`
+This is super easy to change btw
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### theme presets
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [DaisyUI Themes](https://daisyui.com/docs/themes/)
+  * Scroll down to "List of themes", then you can click on any of these to preview the theme on DaisyUI's website
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We're currently using "valentine" for light mode and "halloween" for dark mode.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### custom themes
 
-## Learn More
+custom themes are possible too, just need the colors in hex (like #42f563)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Favicon
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+the little icon next to the title on a tab
 
-### Code Splitting
+this thing:
+<img src="https://bst.icons8.com/wp-content/uploads/2020/08/favicon-design-icons8-blog.jpg" width="200" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+send me a png to change this
