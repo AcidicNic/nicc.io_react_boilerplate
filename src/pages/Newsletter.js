@@ -1,54 +1,61 @@
-import MainWrapper from '../components/MainWrapper';
-import PhoneInput from 'react-phone-number-input/input';
+import MainWrapper from "../components/MainWrapper";
+import PhoneInput from "react-phone-number-input/input";
 
 function Newsletter() {
   return (
     <MainWrapper tabTitle="Newsletter">
-      <div className="hero min-h-screen bg-base-100">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left lg:w-5/6 lg:ml-4">
-            <h1 className="text-5xl font-bold">Newsletter</h1>
-            <p className="py-6">this doesn't work yet!</p>
-          </div>
-          <div className="card shrink-0 w-full max-w-sm  bg-base-200">
-            <form className="card-body">
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Name</span>
-                </label>
-                <input type="text" placeholder="name" className="input input-bordered" />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Email <span className="text-primary font-bold">*</span></span>
-                </label>
-                <input type="email" placeholder="email" className="input input-bordered" required />
-              </div>
-              <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Phone Number</span>
-                </label>
-                <PhoneInput
-                  country="US"
-                  value={''}
-                  onChange={() => { }}
-                  maxLength={16}
-                  placeholder="(222) 222-2222"
-                  className="input input-bordered" />
-              </div>
-              <div className="flex">
-                <label className="label cursor-pointer">
-                  <input type="checkbox" className="checkbox checkbox-primary" required />
-                  <span className="flex-none ml-2 label-text text-left">blah blah blah <span className="text-primary font-bold">*</span></span>
-                </label>
-              </div>
-              <div className="form-control">
-                <button className="btn btn-primary">Sign Up</button>
-              </div>
-            </form>
-          </div>
+
+      <div className="max-w-md mx-5">
+
+        <div className="text-center">
+          <h1 className="text-3xl sm:text-4xl font-bold">Newsletter sign up</h1>
+
+          <p className="mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
+            ipsa culpa autem, at itaque nostrum!
+          </p>
         </div>
+        
+        <form className="">
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Name</span>
+            </label>
+            <input type="text" placeholder="name" className="input input-bordered rounded-lg" />
+          </div>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Email <span className="text-primary font-bold rounded-lg">*</span></span>
+            </label>
+
+            <input type="email" placeholder="email" className="input input-bordered rounded-lg" required />
+          </div>
+          <div className="form-control ">
+            <label className="label">
+              <span className="label-text">Phone Number</span>
+            </label>
+            <PhoneInput
+              country="US"
+              value={""}
+              onChange={() => { }}
+              maxLength={16}
+              placeholder="(222) 222-2222"
+              className="input input-bordered col-span-6 sm:col-span-3 rounded-lg" />
+          </div>
+          <div className="flex mt-4">
+            <label className="label cursor-pointer">
+              <input type="checkbox" className="checkbox checkbox-primary" required />
+              <span className="flex-none ml-2 label-text text-left">blah blah blah blah blah <span className="text-primary font-bold">*</span></span>
+            </label>
+            <div className="form-control grow ">
+              <button className="btn btn-primary ml-auto px-7 pt-1">Sign Up</button>
+            </div>
+          </div>
+          
+        </form>
+
       </div>
+
     </MainWrapper>
   );
 }

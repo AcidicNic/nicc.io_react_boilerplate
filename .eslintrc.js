@@ -1,47 +1,48 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true
+  "env": {
+    "browser": true,
+    "es2021": true
   },
-  'extends': [
-    'eslint:recommended',
-    'plugin:react/recommended'
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
-  'overrides': [
+  "overrides": [
     {
-      'env': {
-        'node': true
+      "env": {
+        "node": true
       },
-      'files': [
-        '.eslintrc.{js,cjs}'
+      "files": [
+        ".eslintrc.{js,cjs}"
       ],
-      'parserOptions': {
-        'sourceType': 'script'
+      "parserOptions": {
+        "sourceType": "script"
       }
     }
   ],
-  'parserOptions': {
-    'ecmaVersion': 'latest',
-    'sourceType': 'module'
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
-  'plugins': [
-    'react'
+  "plugins": [
+    "react"
   ],
-  'rules': {
-    'indent': [
-      'warn',
+  "rules": {
+    "indent": [
+      "error",
       2
     ],
-    'quotes': [
-      'warn',
-      'single'
+    "quotes": [
+      "error",
+      "double"
     ],
-    'semi': [
-      'warn',
-      'always'
+    "semi": [
+      "error",
+      "always"
     ],
-    'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/no-unescaped-entities': 'off',
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "no-unused-vars": "warn",
   }
 };

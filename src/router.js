@@ -1,26 +1,31 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter } from "react-router-dom";
 
-import Home from './pages/Home';
-import Newsletter from './pages/Newsletter';
-import EmailReps from './pages/EmailReps';
-import Donate from './pages/Donate';
+import Home from "./pages/Home";
+import Newsletter from "./pages/Newsletter";
+import EmailReps from "./pages/EmailReps";
+import Donate from "./pages/Donate";
+import PageNotFound from "./pages/PageNotFound";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Home />,
   },
   {
-    path: '/newsletter',
+    path: "/newsletter",
     element: <Newsletter />,
   },
   {
-    path: '/action',
+    path: "/action",
     element: <EmailReps />,
   },
   {
-    path: '/donate',
+    path: "/donate",
     element: <Donate />,
+  },
+  {
+    path: "*",
+    element: <PageNotFound />,
   },
 ]);
 
