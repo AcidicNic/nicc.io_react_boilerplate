@@ -1,12 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState, useContext, useEffect } from 'react';
+/* eslint-disable no-unused-vars */
+import { useState, useEffect } from 'react';
 
-import { HomeIcon, AtSymbolIcon, HeartIcon, InformationCircleIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, AtSymbolIcon, HeartIcon, InformationCircleIcon, CreditCardIcon, BanknotesIcon, FireIcon, FaceSmileIcon, EnvelopeIcon, PuzzlePieceIcon, CommandLineIcon } from '@heroicons/react/24/outline';
 
-import { Context } from '../context';
+// for later
+// import { Context } from '../context';
 
  
-function MainWrapper({ children }) {
+function MainWrapper({ children, tabTitle }) {
 
   const [isDark, setIsDark] = useState(
     JSON.parse(localStorage.getItem('isDark') || 'false')
@@ -15,6 +16,12 @@ function MainWrapper({ children }) {
   useEffect(() => {
     localStorage.setItem('isDark', JSON.stringify(isDark));
   }, [isDark]);
+
+  const navTitle = 'People\'s Park';
+
+  useEffect(() => {
+    document.title = `${navTitle} - ${tabTitle}`;
+  }, []);
   
   return (
     <div className="drawer">
@@ -38,7 +45,7 @@ function MainWrapper({ children }) {
 
             <a className="btn btn-ghost text-xl hover:fill-current fill-none" href="/">
               <HeartIcon className="h-5 fill-inherit" />
-              <span className="align-middle"> People's Park </span>
+              <span className="align-middle"> { navTitle } </span>
               <HeartIcon className="h-5 fill-inherit" />
             </a>
 
@@ -49,7 +56,7 @@ function MainWrapper({ children }) {
             <label className="swap swap-rotate btn btn-circle btn-outline border-none">
               <input type="checkbox"
                 className="theme-controller"
-                value="halloween"
+                value="valentine"
                 checked={isDark}
                 onChange={() => setIsDark(!isDark)}
               />
@@ -67,6 +74,13 @@ function MainWrapper({ children }) {
           {children}
         </div>
 
+        {/* Footer */}
+        <footer className="footer footer-center p-8 bg-base-200 text-base-content rounded">
+          <aside>
+            <span><CommandLineIcon className="h-5 inline" /> Open Source - Made with love <HeartIcon className="h-5 inline" /></span>
+          </aside>
+        </footer>
+
       </div> 
       
       {/* SideBar */}
@@ -74,47 +88,53 @@ function MainWrapper({ children }) {
         <label htmlFor="sidebar" aria-label="close sidebar" className="drawer-overlay"></label> 
         <ul className="menu min-h-full bg-base-100 p-0 w-80">
 
-          {/* Header */}
+          {/* SideBar Header */}
           <div className="navbar bg-base-200">
-
-            {/* SideBar Toggle */}
+            {/* SideBar Hamburger Toggle */}
             <div className="flex-none">
               <label htmlFor="sidebar" aria-label="open sidebar" className="btn btn-square btn-outline border-none">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
               </label>
             </div>
 
-            {/* Title */}
+            {/* SideBar Title */}
             <div className="flex-1">
               <a className="btn btn-ghost text-xl fill-current hover:fill-none" href="/">
                 <HeartIcon className="h-5 fill-inherit" />
-                People's Park
+                { navTitle }
                 <HeartIcon className="h-5 fill-inherit" />
               </a>
             </div>
-            
           </div>
 
           {/* SideBar Menu */}
           <div className="p-4">
+            {/* Home Btn */}
             <li>
               <a href="/">
                 <HomeIcon className="h-6 w-6"/>
                 Home
               </a>
             </li>
-
+            {/* Newsletter Signup Btn */}
             <li>
-              <a href="/emailer">
-                <AtSymbolIcon className="h-6 w-6"/>
-                Email
+              <a href="/signup">
+                <EnvelopeIcon className="h-6 w-6"/>
+                Newsletter
               </a>
             </li>
-
+            {/* Email Reps Btn */}
             <li>
-              <a href="/FAQ">
-                <InformationCircleIcon className="h-6 w-6"/>
-                FAQ
+              <a href="/action">
+                <FireIcon className="h-6 w-6"/>
+                Email Your Reps
+              </a>
+            </li>
+            {/* Donate Btn */}
+            <li>
+              <a href="/donate">
+                <FaceSmileIcon className="h-6 w-6"/>
+                Donate
               </a>
             </li>
           </div>
