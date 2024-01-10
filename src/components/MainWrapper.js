@@ -99,7 +99,7 @@ function MainWrapper({ children, tabTitle }) {
 
             {/* SideBar Title */}
             <div className="flex-1">
-              <a className="btn btn-ghost text-xl fill-current hover:fill-none" href="/">
+              <a className="btn btn-ghost text-xl hover:fill-current fill-none" href="/">
                 <HeartIcon className="h-5 fill-inherit" />
                 { navTitle }
                 <HeartIcon className="h-5 fill-inherit" />

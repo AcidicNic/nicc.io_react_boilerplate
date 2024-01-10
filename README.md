@@ -23,12 +23,6 @@ currently using "valentine" for light mode and "halloween" for dark mode
 
 custom themes are possible too, just need the colors in hex (like #42f563)
 
-### Icons
-
-Using [HeroIcons](https://heroicons.com/) for most icons right now
-
-There's also [FontAwesome](https://fontawesome.com/search?o=r&m=free), which has more variety
-
 ### Favicon
 
 the little icon next to the title on a tab
@@ -55,14 +49,14 @@ send me a png to change this
   - *dynamically updated in a way that's easy & quick for organizers*
   - *maybe embedded ig posts*
 - [ ] buttons to share on socials
-- [ ] highlight/disable sidebar btn for whatever page is currently open
+- [ ] make a cutie email template
 - [ ] domain
 - [ ] make it look prettier
 
 ### Finished
 
-- [x] react boilerplate, base template, placeholders on each page
-- [x] deployed
+- [x] basic setup stuff, pretty base template, placeholder content on each page
+- [x] looks good on mobile
 - [x] planning & docs
 - [x] newsletter form
 
