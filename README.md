@@ -1,4 +1,4 @@
-# live @ [peoples-park.vercel.app](https://peoples-park.vercel.app/)
+# [peoples-park.vercel.app](https://peoples-park.vercel.app/)
 
 ## How to help & more info
 
@@ -49,10 +49,10 @@ send me a png to change this
   - *dynamically updated in a way that's easy & quick for organizers*
   - *maybe embedded ig post feed*
 - [ ] buttons to share on socials
-- [ ] make a cutie email template & [make sure newsletter emails don't go to spam](https://www.mail-tester.com/)
+- [ ] make a cutie email template & [make sure the emails don't go to spam](https://www.mail-tester.com/)
 - [ ] domain
-- [ ] [accessibility](https://accessibe.com/accessscan?website=peoples-park.vercel.app)
-- [ ] [SEO](https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Fpeoples-park.vercel.app&crawltype=1)
+- [ ] [accessibility](https://accessibe.com/accessscan)
+- [ ] [SEO](https://www.seobility.net/en/seocheck/)
 
 ### Finished
 
