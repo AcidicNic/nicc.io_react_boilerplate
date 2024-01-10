@@ -1,39 +1,5 @@
 # [peoples-park.vercel.app](https://peoples-park.vercel.app/)
 
-## How to help & more info
-
-hit me up with any suggestions for changes to make or info/content that should be on the website
-
-don't worry about if it sounds like it'd be hard to add lol
-
-### Domain name
-
-still need a domain name (like example.com)
-
-[namecheap](https://www.namecheap.com/) is good for finding available and affordable domain names
-
-### Color scheme
-
-This project uses DaisyUI, which comes with a variety of theme presets (color palettes that are automatically applied to all of the content on the website)
-
-* [DaisyUI Themes](https://daisyui.com/docs/themes/)
-  * Scroll down to "List of themes", then you can choose on any of these to preview the theme on DaisyUI's website
-
-currently using "valentine" for light mode and "halloween" for dark mode
-
-custom themes are possible too, just need the colors in hex (like #42f563)
-
-### Favicon
-
-the little icon next to the title on a tab
-
-this thing:
-<img src="https://bst.icons8.com/wp-content/uploads/2020/08/favicon-design-icons8-blog.jpg" width="200" />
-
-send me a png to change this
-
----
-
 ## To-Do
 
 ### Important
