@@ -113,13 +113,13 @@ function MainWrapper({ children, tabTitle }) {
             {/* Home Btn */}
             <li>
               <a href="/">
-                <HomeIcon className="h-6 w-6"/>
+                <InformationCircleIcon className="h-6 w-6"/>
                 Home
               </a>
             </li>
             {/* Newsletter Signup Btn */}
             <li>
-              <a href="/signup">
+              <a href="/newsletter">
                 <EnvelopeIcon className="h-6 w-6"/>
                 Newsletter
               </a>
@@ -128,7 +128,7 @@ function MainWrapper({ children, tabTitle }) {
             <li>
               <a href="/action">
                 <FireIcon className="h-6 w-6"/>
-                Email Your Reps
+                Email Local Reps
               </a>
             </li>
             {/* Donate Btn */}
