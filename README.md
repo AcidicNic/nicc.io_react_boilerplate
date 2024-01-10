@@ -43,15 +43,16 @@ send me a png to change this
 - [ ] ! email/text newsletter sign up
   - *signup form accepts phone #s and will save them for later use, but actual text updates will be added later cuz it costs $*
 
-### Next Steps
+### Next Up
 
 - [ ] ! latest updates/announcements/upcoming events section
   - *dynamically updated in a way that's easy & quick for organizers*
-  - *maybe embedded ig posts*
+  - *maybe embedded ig post feed*
 - [ ] buttons to share on socials
-- [ ] make a cutie email template
+- [ ] make a cutie email template & [make sure newsletter emails don't go to spam](https://www.mail-tester.com/)
 - [ ] domain
-- [ ] make it look prettier
+- [ ] [accessibility](https://accessibe.com/accessscan?website=peoples-park.vercel.app)
+- [ ] [SEO](https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Fpeoples-park.vercel.app&crawltype=1)
 
 ### Finished
 
