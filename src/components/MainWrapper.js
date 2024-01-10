@@ -76,7 +76,9 @@ function MainWrapper({ children, tabTitle }) {
         {/* Footer */}
         <footer className="footer footer-center p-8 bg-base-200 text-base-content rounded select-none">
           <aside>
-            <span><CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/peoples-park">Open Source</a> - Made with love <FaceSmileIcon className="h-5 inline" /></span>
+            <span>
+              <CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/peoples-park" target="_blank" rel="noopener noreferrer">Open Source</a> - made with love <FaceSmileIcon className="h-5 inline" />
+            </span>
           </aside>
         </footer>
 
