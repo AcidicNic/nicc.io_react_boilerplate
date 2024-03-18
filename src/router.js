@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Newsletter from "./pages/Newsletter";
-import EmailReps from "./pages/EmailReps";
-import Donate from "./pages/Donate";
+import Section0 from "./pages/Section0";
+import Section1 from "./pages/Section1";
+import Section2 from "./pages/Section2";
 import PageNotFound from "./pages/PageNotFound";
 
 const router = createBrowserRouter([
@@ -12,16 +12,16 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/newsletter",
-    element: <Newsletter />,
+    path: "/Section0",
+    element: <Section0 />,
   },
   {
-    path: "/action",
-    element: <EmailReps />,
+    path: "/Section1",
+    element: <Section1 />,
   },
   {
-    path: "/donate",
-    element: <Donate />,
+    path: "/Section2",
+    element: <Section2 />,
   },
   {
     path: "*",

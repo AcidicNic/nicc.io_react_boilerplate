@@ -17,7 +17,7 @@ function MainWrapper({ children, tabTitle }) {
     localStorage.setItem("selectedTheme", JSON.stringify(selectedTheme));
   }, [selectedTheme]);
 
-  const navTitle = "People's Park";
+  const navTitle = "NodSafe";
 
   useEffect(() => {
     document.title = `${navTitle} - ${tabTitle}`;
@@ -131,7 +131,7 @@ function MainWrapper({ children, tabTitle }) {
         <footer className="footer footer-center bg-base-200 rounded select-none h-16">
           <aside>
             <span>
-              <CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/peoples-park" target="_blank" rel="noopener noreferrer">Open Source</a> - made with love <FaceSmileIcon className="h-5 inline" />
+              <CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/nodsafe" target="_blank" rel="noopener noreferrer">Open Source</a> - made with love <FaceSmileIcon className="h-5 inline" />
             </span>
           </aside>
         </footer>
@@ -171,27 +171,27 @@ function MainWrapper({ children, tabTitle }) {
                 Home
               </a>
             </li>
-            {/* Newsletter Signup Btn */}
+            {/* --- Btn */}
             <li>
-              <a href="/newsletter">
-                <EnvelopeIcon className="h-6 w-6"/>
-                Newsletter
+              <a href="/Section0">
+                <HeartIcon className="h-6 w-6"/>
+                Section0
               </a>
             </li>
-            {/* Email Reps Btn */}
+            {/* --- Btn */}
             <li>
-              <a href="/action">
+              <a href="/Section1">
                 <FireIcon className="h-6 w-6"/>
-                Email Local Reps
+                Section1
               </a>
             </li>
-            {/* Donate Btn */}
-            {/* <li>
-              <a href="/donate">
+            {/* --- Btn */}
+            <li>
+              <a href="/Section2">
                 <FaceSmileIcon className="h-6 w-6"/>
-                Donate
+                Section2
               </a>
-            </li> */}
+            </li>
           </div>
 
           

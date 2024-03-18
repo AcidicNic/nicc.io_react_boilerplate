@@ -1,14 +1,14 @@
 import MainWrapper from "../components/MainWrapper";
 import PhoneInput from "react-phone-number-input/input";
 
-function Newsletter() {
+function Section0() {
   return (
-    <MainWrapper tabTitle="Newsletter">
+    <MainWrapper tabTitle="Section0">
 
       <div className="max-w-md mx-5">
 
         <div className="text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold">Newsletter sign up</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold">sign up</h1>
 
           <p className="mt-4 text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
@@ -60,4 +60,4 @@ function Newsletter() {
   );
 }
 
-export default Newsletter;
+export default Section0;
