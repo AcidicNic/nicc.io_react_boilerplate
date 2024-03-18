@@ -16,11 +16,11 @@ $ yarn
 $ npm i --include=dev
 ```
 
-### Environment Variables Setup
+<!-- ### Environment Variables Setup
 
 1. Make a copy of `.env_EXAMPLE` in the project's root directory (`/nodsafe/`)
 2. Rename `.env_EXAMPLE` to `.env`
-3. Follow instructions in the file
+3. Follow instructions in the file -->
 
 ## Usage
 
