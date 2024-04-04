@@ -17,7 +17,7 @@ function MainWrapper({ children, tabTitle }) {
     localStorage.setItem("selectedTheme", JSON.stringify(selectedTheme));
   }, [selectedTheme]);
 
-  const navTitle = "NodSafe";
+  const navTitle = "nicc.io";
 
   useEffect(() => {
     document.title = `${navTitle} - ${tabTitle}`;
@@ -132,7 +132,8 @@ function MainWrapper({ children, tabTitle }) {
         <footer className="footer footer-center bg-base-200 rounded select-none h-16">
           <aside>
             <span>
-              <CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/nodsafe" target="_blank" rel="noopener noreferrer">Open Source</a> - made with love <FaceSmileIcon className="h-5 inline" />
+              {/* TODO: Add repo to href link */}
+              <CommandLineIcon className="h-5 inline" /> <a href="https://github.com/AcidicNic/" target="_blank" rel="noopener noreferrer">Open Source</a> - made with love <FaceSmileIcon className="h-5 inline" />
             </span>
           </aside>
         </footer>
